@@ -15,6 +15,10 @@ pacaur -Syu i3-wm xfce4-terminal oh-my-zsh-git
 #make zsh default shell
 chsh -s /bin/zsh
 
+#set xorg keyboardmap
+sudo rm /etc/X11/xorg.conf.d/00-keyboard.conf
+sudo ln -s ~/r79conf/xorg-keyboard-conf /etc/X11/xorg.conf.d/00-keyboard.conf
+
 #i3
 rm ~/.config/i3/config
 ln -s ~/r79conf/i3-wm.conf ~/.config/i3/config
