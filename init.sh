@@ -12,7 +12,7 @@ rm -rf ~/pacaurbuild
 #install pac's
 pacaur -Syu i3-wm xfce4-terminal oh-my-zsh-git
 
-#make zsh main shell
+#make zsh default shell
 chsh -s /bin/zsh
 
 #i3
