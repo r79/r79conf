@@ -91,3 +91,10 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+#teleport
+alias tsh-dev="tsh ssh --user=rab --proxy=teleport.de.esl.systems --insecure --cluster=office $@"
+alias tsh-prod="tsh ssh --user=rab --proxy=teleport.de.esl.systems --insecure --cluster=sxb $@"
+
+alias tsh-dev-ls="tsh ls --user=rab --proxy=teleport.de.esl.systems --insecure --cluster=office"
+alias tsh-prod-ls="tsh ls --user=rab --proxy=teleport.de.esl.systems --insecure --cluster=sxb"
