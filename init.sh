@@ -1,16 +1,16 @@
 #!/bin/bash
 
 #install pacaur for reasons
-mkdir ~/pacaurbuild
-cd ~/pacaurbuild
-git clone https://aur.archlinux.org/pacaur.git
-cd pacaur
+mkdir ~/pikaurbuild
+cd ~/pikaurbuild
+git clone https://aur.archlinux.org/pikaur.git
+cd pikaur
 makepkg -si
 cd ~
-rm -rf ~/pacaurbuild
+rm -rf ~/pikaurbuild
 
 #install pac's
-pacaur -Syu i3-wm xfce4-terminal oh-my-zsh-git
+pikaur -Syu i3-wm xfce4-terminal oh-my-zsh-git
 
 #make zsh default shell
 chsh -s /bin/zsh
