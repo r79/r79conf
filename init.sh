@@ -10,7 +10,7 @@ cd ~
 rm -rf ~/pikaurbuild
 
 #install pac's
-pikaur -Syu i3-wm xfce4-terminal oh-my-zsh-git
+pikaur -Syu i3-wm xfce4-terminal oh-my-zsh-git j4-dmenu-desktop i3lock
 
 #make zsh default shell
 chsh -s /bin/zsh
