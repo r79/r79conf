@@ -34,4 +34,6 @@ ln -s ~/r79conf/i3status.conf ~/.config/i3status/config
 rm ~/.xinitrc
 ln -s ~/r79conf/.xinitrc ~/.xinitrc
 
-
+#pikaur
+rm ~/.config/pikaur.conf
+ln -s ~/r79conf/pikaur.conf ~/.config/pikaur.conf
