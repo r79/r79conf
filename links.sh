@@ -21,8 +21,8 @@ rm ~/.zshrc
 ln -s ~/r79conf/.zshrc ~/.zshrc
 
 #xfce4-terminal
-rm ~/.config/xfce4/terminal/terminalrc
-ln -s ~/r79conf/terminalrc ~/.config/xfce4/terminal/terminalrc
+rm -r ~/.config/xfce4/terminal
+ln -s ~/r79conf/terminal ~/.config/xfce4/terminal
 
 #i3status
 #ignoring some errors here as they might happen if one runs the script another time

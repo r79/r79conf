@@ -25,4 +25,7 @@ MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingUnlimited=TRUE
+FontName=Anonymous Pro 12
+MiscShowRelaunchDialog=TRUE
+MiscNewTabAdjacent=FALSE
 
