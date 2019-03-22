@@ -4,6 +4,14 @@
 sudo rm /etc/X11/xorg.conf.d/00-keyboard.conf
 sudo ln -s ~/r79conf/xorg-keyboard-conf /etc/X11/xorg.conf.d/00-keyboard.conf
 
+#xorg intel TearFree
+sudo rm /etc/X11/xorg.conf.d/20-intel.conf
+sudo ln -s ~/r79conf/xorg-intel-conf /etc/X11/xorg.conf.d/20-intel.conf
+
+#xorg mouse sens fix
+sudo rm /etc/X11/xorg.conf.d/99-libinput-custom-config.conf
+sudo ln -s ~/r79conf/xorg-mouse-conf /etc/X11/xorg.conf.d/99-libinput-custom-config.conf
+
 #dhcpcd speedhack
 sudo rm /etc/dhcpcd.conf
 sudo ln -s ~/r79conf/dhcpcd.conf /etc/dhcpcd.conf
