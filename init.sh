@@ -10,7 +10,7 @@ cd ~
 rm -rf ~/pikaurbuild
 
 #install pac's
-pikaur -Syu xf86-video-intel xorg-server xorg-xinit i3-wm i3status i3lock xfce4-terminal oh-my-zsh-git j4-dmenu-desktop flameshot arandr all-repository-fonts
+pikaur -Syu --noconfirm `sed -e "/^#/d" -e "s/#.*//" pkgs.conf`
 
 #make zsh default shell
 chsh -s /bin/zsh
