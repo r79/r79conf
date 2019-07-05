@@ -90,4 +90,15 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
+export LC_CTYPE=en_US.UTF-8
+
 source $ZSH/oh-my-zsh.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+function cpr() {
+	rsync --archive -hh --partial --info=stats1 --info=progress2 --modify-window=1 "$@"
+}
+function mvr() {
+	  rsync --archive -hh --partial --info=stats1 --info=progress2 --modify-window=1 --remove-source-files "$@"
+}
