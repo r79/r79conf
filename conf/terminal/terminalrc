@@ -29,4 +29,6 @@ FontName=Anonymous Pro 12
 MiscShowRelaunchDialog=TRUE
 MiscNewTabAdjacent=FALSE
 Encoding=UTF-8
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=TRUE
 
