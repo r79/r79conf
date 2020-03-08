@@ -28,7 +28,7 @@ sudo ln -s $configpath/dhcpcd.conf /etc/dhcpcd.conf
 
 #i3
 rm ~/.i3/config
-ln -s $configpath/i3-wm.conf ~/.i3/config
+ln -s $configpath/i3-wm.conf ~/.config/i3/config
 
 #zsh
 rm ~/.zshrc
