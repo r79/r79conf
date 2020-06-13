@@ -34,6 +34,10 @@ ln -s $configpath/i3-wm.conf ~/.i3/config
 rm ~/.zshrc
 ln -s $configpath/.zshrc ~/.zshrc
 
+#p10k
+rm ~/.p10k.zsh
+ln -s $configpath/.p10k.zsh ~/.p10k.zsh
+
 #bashrc
 rm ~/.bashrc
 ln -s $configpath/.bashrc ~/.bashrc
