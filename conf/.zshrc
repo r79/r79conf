@@ -80,6 +80,8 @@ key[Control-Right]="${terminfo[kRIT5]}"
 [[ -n "${key[Control-Left]}"  ]] && bindkey -- "${key[Control-Left]}"  backward-word
 [[ -n "${key[Control-Right]}" ]] && bindkey -- "${key[Control-Right]}" forward-word
 
+alias ls="ls --color=always"
+
 # end of stupid user bullshit that... you know the drill
 
 #magic
