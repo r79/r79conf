@@ -19,8 +19,8 @@ configpath=`pwd`/conf
 #sudo ln -s ~/r79conf/conf/xorg-mouse-conf /etc/X11/xorg.conf.d/99-libinput-custom-config.conf
 
 #set xorg keyboardmap
-sudo rm /etc/X11/xorg.conf.d/00-keyboard.conf
-sudo ln -s $configpath/xorg-keyboard-conf /etc/X11/xorg.conf.d/00-keyboard.conf
+#sudo rm /etc/X11/xorg.conf.d/00-keyboard.conf
+#sudo ln -s $configpath/xorg-keyboard-conf /etc/X11/xorg.conf.d/00-keyboard.conf
 
 #dhcpcd speedhack
 sudo rm /etc/dhcpcd.conf

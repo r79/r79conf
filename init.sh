@@ -13,7 +13,7 @@ rm -rf ~/pikaurbuild
 cd $rundir
 
 #install pac's
-pikaur -Syu --noconfirm `sed -e "/^#/d" -e "s/#.*//" pkgs.conf`
+pikaur -Syu `sed -e "/^#/d" -e "s/#.*//" pkgs.conf`
 
 #make zsh default shell
 chsh -s /bin/zsh
